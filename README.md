@@ -7,6 +7,7 @@ Then you'll need to update the twitter4j.properties file in order to fill out th
 -  oauth.consumerSecret=
 -  oauth.accessToken=
 -  oauth.accessTokenSecret=
+
 Go to https://apps.twitter.com/app/new in order to create those credentials.
 
 To run the program, simply type "python TwitterSearchDemoLight.py" from the command line.
