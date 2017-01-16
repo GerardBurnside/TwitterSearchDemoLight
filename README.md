@@ -11,7 +11,9 @@ Then you'll need to update the **twitter4j.properties** file in order to fill ou
 
 Go to https://apps.twitter.com/app/new in order to create those credentials.
 
-*To run the program, simply type* "python TwitterSearchDemoLight.py" *from the command line.*
+*To run the program, simply type* "**python3** TwitterSearchDemoLight.py" *from the command line.*
+
+Depending on your installation, you may use "*python* TwitterSearchDemoLight.py" instead of "*python3*", but first make sure that this is version 3 by typing "python -V".
 
 # How the program works:
 - When pressing the "Collect Tweets.." button:
