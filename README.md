@@ -2,7 +2,7 @@
 Short demo on new ways to filter Twitter searches
 
 ## Before running the program
-After having unzipped the file, in order to run this small program, you'll need **python 3** and **Java** (JRE) installed *and in your PATH variable*.
+After having unzipped the file, in order to run this small program, you'll need **python 3** (see [Ubuntu instructions][Ubuntu]) and **Java** (JRE) installed *and in your PATH variable*.
 Then you'll need to update the **twitter4j.properties** file in order to fill out the **Twitter API credentials**:
 -  oauth.consumerKey=
 -  oauth.consumerSecret=
@@ -11,9 +11,14 @@ Then you'll need to update the **twitter4j.properties** file in order to fill ou
 
 Go to https://apps.twitter.com/app/new in order to create those credentials.
 
-*To run the program, simply type* "**python3** TwitterSearchDemoLight.py" *from the command line.*
+*To run the program, simply type from the command line:*
+> **python3** TwitterSearchDemoLight.py
 
-Depending on your installation, you may use "*python* TwitterSearchDemoLight.py" instead of "*python3*", but first make sure that this is version 3 by typing "python -V".
+*Depending on your installation, you may use:*
+> **python** TwitterSearchDemoLight.py
+
+but first make sure that this is version 3 by typing:
+> python -V
 
 # How the program works:
 - When pressing the "Collect Tweets.." button:
@@ -28,4 +33,8 @@ The sorted tweets are then displayed in a web page on your default navigator.
   - permanently by setting CACHE_EXPIRATION_POLICY=-1 in the *twitterSearch.properties* file
   - for one time only by removing files in the "cache/" directory
 
+[Ubuntu]: instructions to install python3 on Ubuntu:
+> apt-get update
+> apt-get updgrade
+> apt-get install python3 install python3-tk
 
