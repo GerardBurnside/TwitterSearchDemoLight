@@ -14,17 +14,19 @@ You need a Twitter account (Twitter will ask your phone number) in order to crea
 1. Go to https://apps.twitter.com/app/new
 
 2. Fill the form, e.g.:
-..* name: TwitterSearchXYZ
-..* description: Whatever XYZ
-..* website: any URL will do
-..* Don't forget to tick the checkbox
+  * name: TwitterSearchXYZ
+  * description: Whatever XYZ
+  * website: any URL will do
+  * Don't forget to tick the checkbox
 
 3. In the new page, click on "Keys and Access Tokens" in order to configure **twitter4j.properties** file:
-..*  Copy/paste your Consumer Key (API Key) after oauth.consumerKey=
-..*  Copy/paste your Consumer Secret (API Secret) after oauth.consumerSecret=
-..*  Click on "Create my access token"
-..*  Copy/paste your Access Token after oauth.accessToken=
-..*  Copy/paste your Access Token Secret after oauth.accessTokenSecret
+
+ *  Copy/paste your Consumer Key (API Key) after oauth.consumerKey=
+ *  Copy/paste your Consumer Secret (API Secret) after oauth.consumerSecret=
+ *  Click on "Create my access token"
+  *  Copy/paste your Access Token after oauth.accessToken=
+  *  Copy/paste your Access Token Secret after oauth.accessTokenSecret
+
 Your **twitter4j.properties** file should now contain something like:
 > oauth.consumerKey=C81lYrTXYZ12xjzhZW7kjZFn7
 > oauth.consumerSecret=LsuySrEXYZXYZaGA1gVrSZ1WNXCgXTyGDCYfl4fCyPOfSbJBqP
