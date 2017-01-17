@@ -48,7 +48,7 @@ To run the program, simply type `python3 TwitterSearchDemoLight.py` from the com
 The sorted tweets are then displayed in a web page on your default navigator.
 
 ## Important notes and limitations/restrictions:
-- The Twitter Search API only indexes all tweets for the past 6 or 7 days. After that only a limited number of tweets are kept in the index and can be returned by the API. You need to have that in mind when using the demo.
+- The Twitter Search API only indexes tweets for the **past 6 or 7 days**. After that only a limited number of tweets are kept in the index and can be returned by the API. You need to have that in mind when using the demo.
 - By default this program is caching the tweets that it retrieves so that subsequent calls with the same keywords are read from cache instead of actually retrieved from the API. This behaviour can be changed:
   - permanently by setting CACHE_EXPIRATION_POLICY=-1 in the *twitterSearch.properties* file
   - for one time only by removing files in the "cache/" directory
