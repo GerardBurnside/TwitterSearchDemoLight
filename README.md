@@ -50,5 +50,7 @@ The sorted tweets are then displayed in a web page on your default navigator.
 
 ### Ubuntu instructions to install python3
 > apt-get update
+
 > apt-get updgrade
+
 > apt-get install python3 install python3-tk
