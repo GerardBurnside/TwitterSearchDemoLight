@@ -2,7 +2,7 @@
 Short demo on new ways to filter Twitter searches
 
 ## Before running the program
-After having unzipped the file, in order to run this small program, you'll need **python 3** (see [Ubuntu instructions](#Ubuntu)) and **Java** (JRE) installed *and in your PATH variable*.
+After having unzipped the file, in order to run this small program, you'll need **python 3** (see [Ubuntu instructions](#ubuntu-instructions-to-install-python3)) and **Java** (JRE) installed *and in your PATH variable*.
 Then you'll need to update the **twitter4j.properties** file in order to fill out the **Twitter API credentials**:
 -  oauth.consumerKey=
 -  oauth.consumerSecret=
@@ -33,8 +33,7 @@ The sorted tweets are then displayed in a web page on your default navigator.
   - permanently by setting CACHE_EXPIRATION_POLICY=-1 in the *twitterSearch.properties* file
   - for one time only by removing files in the "cache/" directory
 
-###Ubuntu
-instructions to install python3 on Ubuntu:
+### Ubuntu instructions to install python3
 > apt-get update
 
 > apt-get updgrade
