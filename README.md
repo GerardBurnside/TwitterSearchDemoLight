@@ -9,16 +9,31 @@ Then you'll need to update the **twitter4j.properties** file in order to fill ou
 -  oauth.accessToken=
 -  oauth.accessTokenSecret=
 
-Go to https://apps.twitter.com/app/new in order to create those credentials.
+You need a Twitter account (Twitter will ask your phone number) in order to create an app:
+1. Go to https://apps.twitter.com/app/new
+2. Fill the form, e.g.:
+..* name: TwitterSearchXYZ
+..* description: Whatever XYZ
+..* website: any URL will do
+..* Don't forget to tick the checkbox
+3. In the new page, click on "Keys and Access Tokens" in order to configure **twitter4j.properties** file:
+..*  Copy/paste your Consumer Key (API Key) after oauth.consumerKey=
+..*  Copy/paste your Consumer Secret (API Secret) after oauth.consumerSecret=
+..*  Click on "Create my access token"
+..*  Copy/paste your Access Token after oauth.accessToken=
+..*  Copy/paste your Access Token Secret after oauth.accessTokenSecret
+Your **twitter4j.properties** file should now contain something like:
+> oauth.consumerKey=C81lYrTXYZ12xjzhZW7kjZFn7
+> oauth.consumerSecret=LsuySrEXYZXYZaGA1gVrSZ1WNXCgXTyGDCYfl4fCyPOfSbJBqP
+> oauth.accessToken=821019999998079489-uwuHpkNfR0kd1HkXWUq7ZHv4gajoxba
+> oauth.accessTokenSecret=CkneUv6XYZxyzGrtKFGig0cCGjHI2aoLUH0hpa1efW5DN
 
-*To run the program, simply type from the command line:*
-> **python3** TwitterSearchDemoLight.py
 
-*Depending on your installation, you may use:*
-> **python** TwitterSearchDemoLight.py
+# Running the Demo
 
-but first make sure that this is version 3 by typing:
-> python -V
+To run the program, simply type `python3 TwitterSearchDemoLight.py` from the command line.
+
+*Depending on your installation, you may use:* `python TwitterSearchDemoLight.py`, *but first make sure that this is version 3 by typing* `python -V`
 
 # How the program works:
 - When pressing the "Collect Tweets.." button:
@@ -35,7 +50,5 @@ The sorted tweets are then displayed in a web page on your default navigator.
 
 ### Ubuntu instructions to install python3
 > apt-get update
-
 > apt-get updgrade
-
 > apt-get install python3 install python3-tk
