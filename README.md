@@ -10,12 +10,15 @@ Then you'll need to update the **twitter4j.properties** file in order to fill ou
 -  oauth.accessTokenSecret=
 
 You need a Twitter account (Twitter will ask your phone number) in order to create an app:
+
 1. Go to https://apps.twitter.com/app/new
+
 2. Fill the form, e.g.:
 ..* name: TwitterSearchXYZ
 ..* description: Whatever XYZ
 ..* website: any URL will do
 ..* Don't forget to tick the checkbox
+
 3. In the new page, click on "Keys and Access Tokens" in order to configure **twitter4j.properties** file:
 ..*  Copy/paste your Consumer Key (API Key) after oauth.consumerKey=
 ..*  Copy/paste your Consumer Secret (API Secret) after oauth.consumerSecret=
